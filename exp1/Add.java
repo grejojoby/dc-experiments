@@ -6,11 +6,11 @@ public class Add extends UnicastRemoteObject implements AddInterface {
         super();
     }
 
-    int num1, num2;
+    // int num1, num2;
 
     public int sum(int n1, int n2) throws RemoteException {
-        num1 = n1;
-        num2 = n2;
-        return num1 + num2;
+        // num1 = n1;
+        // num2 = n2;
+        return n1 + n2;
     }
 }
